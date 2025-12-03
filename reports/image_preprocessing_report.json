@@ -1,0 +1,35 @@
+{
+    "timestamp": "2025-12-02T00:16:38.499963",
+    "configuration": {
+        "target_size": [
+            224,
+            224
+        ],
+        "normalization": "z-score",
+        "augmentation_factor": 3
+    },
+    "statistics": {
+        "total_processed": 100,
+        "total_augmented": 100,
+        "by_dataset": {
+            "jpeg_train": {
+                "processed": 50,
+                "failed": 0,
+                "augmented": 100,
+                "by_label": {
+                    "benign": 25,
+                    "malignant": 25
+                }
+            },
+            "jpeg_test": {
+                "processed": 50,
+                "failed": 0,
+                "augmented": 0,
+                "by_label": {
+                    "benign": 25,
+                    "malignant": 25
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+# Mini-Projet 2 : Évaluation et Amélioration de la Qualité des Données
+# Requirements Python COMPLET (incluant traitement d'images)
+
+# ==========================================
+# CORE DATA SCIENCE
+# ==========================================
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# ==========================================
+# IMAGE PROCESSING (DEEP LEARNING)
+# ==========================================
+opencv-python>=4.8.0           # Traitement d'images (CLAHE, denoising)
+Pillow>=10.0.0                  # Traitement d'images
+
+# ==========================================
+# VISUALIZATION
+# ==========================================
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# ==========================================
+# WEB APPLICATION (STREAMLIT)
+# ==========================================
+streamlit>=1.28.0
+
+# ==========================================
+# DATA QUALITY & PROFILING
+# ==========================================
+ydata-profiling>=4.5.0          # Anciennement pandas-profiling
+missingno>=0.5.2                # Visualisation des valeurs manquantes
+great-expectations>=0.17.0      # Validation de données (optionnel)
+
+# ==========================================
+# MACHINE LEARNING
+# ==========================================
+scikit-learn>=1.3.0
+imbalanced-learn>=0.11.0        # SMOTE et autres techniques d'augmentation
+
+# ==========================================
+# DEEP LEARNING (pour augmentation d'images)
+# ==========================================
+torch>=2.0.0                    # PyTorch
+torchvision>=0.15.0             # Transformations d'images
+
+# ==========================================
+# TEXT PROCESSING & FUZZY MATCHING
+# ==========================================
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0      # Pour accélérer fuzzywuzzy
+
+# ==========================================
+# JUPYTER & NOTEBOOK
+# ==========================================
+jupyter>=1.0.0
+ipykernel>=6.23.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# ==========================================
+# UTILITIES
+# ==========================================
+python-dateutil>=2.8.0
+tqdm>=4.65.0                    # Progress bars
+openpyxl>=3.1.0                 # Excel support
+
+# ==========================================
+# REPORTING
+# ==========================================
+markdown>=3.4.0
+Jinja2>=3.1.0
+
+# ==========================================
+# OPTIONAL (décommenter si nécessaire)
+# ==========================================
+# pydicom>=2.4.0                # Si analyse d'images DICOM nécessaire
+# albumentations>=1.3.0         # Augmentation d'images avancée (alternative)

@@ -1,0 +1,198 @@
+{
+    "timestamp": "2025-12-01T23:16:03.417746",
+    "operations": [
+        {
+            "step": "Détection colonne cible",
+            "timestamp": "2025-12-01T23:16:03.444616",
+            "details": "Colonne 'pathology' identifiée comme variable cible"
+        },
+        {
+            "step": "Normalisation catégorielles",
+            "timestamp": "2025-12-01T23:16:03.489024",
+            "details": "9 colonnes normalisées: ['patient_id', 'left or right breast', 'image view', 'calc type', 'calc distribution', 'pathology', 'image file path', 'cropped image file path', 'ROI mask file path']"
+        },
+        {
+            "step": "Harmonisation pathology",
+            "timestamp": "2025-12-01T23:16:03.492534",
+            "details": "Valeurs harmonisées: {'benign': 1002, 'malignant': 544}"
+        },
+        {
+            "step": "Vérification doublons",
+            "timestamp": "2025-12-01T23:16:03.498048",
+            "details": "Aucun doublon trouvé"
+        },
+        {
+            "step": "Vérification valeurs manquantes",
+            "timestamp": "2025-12-01T23:16:03.500611",
+            "details": "Aucune valeur critique manquante"
+        },
+        {
+            "step": "Détection outliers",
+            "timestamp": "2025-12-01T23:16:03.507281",
+            "details": "Outliers détectés: {'subtlety': {'count': 95, 'lower_bound': 1.5, 'upper_bound': 5.5, 'values': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}}"
+        },
+        {
+            "step": "Suppression incohérences critiques",
+            "timestamp": "2025-12-01T23:16:03.522464",
+            "details": "1 cas avec incohérence BI-RADS/Pathology critique supprimés",
+            "rows_before": 1546,
+            "rows_after": 1545,
+            "rows_removed": 1,
+            "percentage_removed": "0.06%"
+        },
+        {
+            "step": "Vérification cohérence BI-RADS",
+            "timestamp": "2025-12-01T23:16:03.522464",
+            "details": "Statistiques: {'CONSISTENT': 1480, 'INCOMPLETE_ASSESSMENT': 63, 'MODERATE_INCONSISTENCY': 2, 'CRITICAL_INCONSISTENCY': 1}"
+        },
+        {
+            "step": "Détection colonne cible",
+            "timestamp": "2025-12-01T23:16:03.553002",
+            "details": "Colonne 'pathology' identifiée comme variable cible"
+        },
+        {
+            "step": "Normalisation catégorielles",
+            "timestamp": "2025-12-01T23:16:03.567576",
+            "details": "9 colonnes normalisées: ['patient_id', 'left or right breast', 'image view', 'calc type', 'calc distribution', 'pathology', 'image file path', 'cropped image file path', 'ROI mask file path']"
+        },
+        {
+            "step": "Harmonisation pathology",
+            "timestamp": "2025-12-01T23:16:03.568576",
+            "details": "Valeurs harmonisées: {'benign': 197, 'malignant': 129}"
+        },
+        {
+            "step": "Vérification doublons",
+            "timestamp": "2025-12-01T23:16:03.570576",
+            "details": "Aucun doublon trouvé"
+        },
+        {
+            "step": "Vérification valeurs manquantes",
+            "timestamp": "2025-12-01T23:16:03.571579",
+            "details": "Aucune valeur critique manquante"
+        },
+        {
+            "step": "Détection outliers",
+            "timestamp": "2025-12-01T23:16:03.574706",
+            "details": "Outliers détectés: {'subtlety': {'count': 24, 'lower_bound': 1.5, 'upper_bound': 5.5, 'values': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}}"
+        },
+        {
+            "step": "Vérification cohérence BI-RADS",
+            "timestamp": "2025-12-01T23:16:03.577246",
+            "details": "Statistiques: {'CONSISTENT': 313, 'INCOMPLETE_ASSESSMENT': 13}"
+        },
+        {
+            "step": "Détection colonne cible",
+            "timestamp": "2025-12-01T23:16:03.595014",
+            "details": "Colonne 'pathology' identifiée comme variable cible"
+        },
+        {
+            "step": "Normalisation catégorielles",
+            "timestamp": "2025-12-01T23:16:03.630432",
+            "details": "9 colonnes normalisées: ['patient_id', 'left or right breast', 'image view', 'mass shape', 'mass margins', 'pathology', 'image file path', 'cropped image file path', 'ROI mask file path']"
+        },
+        {
+            "step": "Harmonisation pathology",
+            "timestamp": "2025-12-01T23:16:03.632495",
+            "details": "Valeurs harmonisées: {'benign': 681, 'malignant': 637}"
+        },
+        {
+            "step": "Vérification doublons",
+            "timestamp": "2025-12-01T23:16:03.637228",
+            "details": "Aucun doublon trouvé"
+        },
+        {
+            "step": "Vérification valeurs manquantes",
+            "timestamp": "2025-12-01T23:16:03.639449",
+            "details": "Aucune valeur critique manquante"
+        },
+        {
+            "step": "Détection outliers",
+            "timestamp": "2025-12-01T23:16:03.643454",
+            "details": "Outliers détectés: {'assessment': {'count': 130, 'lower_bound': 1.5, 'upper_bound': 5.5, 'values': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}"
+        },
+        {
+            "step": "Suppression incohérences critiques",
+            "timestamp": "2025-12-01T23:16:03.657062",
+            "details": "1 cas avec incohérence BI-RADS/Pathology critique supprimés",
+            "rows_before": 1318,
+            "rows_after": 1317,
+            "rows_removed": 1,
+            "percentage_removed": "0.08%"
+        },
+        {
+            "step": "Vérification cohérence BI-RADS",
+            "timestamp": "2025-12-01T23:16:03.657062",
+            "details": "Statistiques: {'CONSISTENT': 1182, 'INCOMPLETE_ASSESSMENT': 129, 'MODERATE_INCONSISTENCY': 6, 'CRITICAL_INCONSISTENCY': 1}"
+        },
+        {
+            "step": "Détection colonne cible",
+            "timestamp": "2025-12-01T23:16:03.687743",
+            "details": "Colonne 'pathology' identifiée comme variable cible"
+        },
+        {
+            "step": "Normalisation catégorielles",
+            "timestamp": "2025-12-01T23:16:03.707869",
+            "details": "9 colonnes normalisées: ['patient_id', 'left or right breast', 'image view', 'mass shape', 'mass margins', 'pathology', 'image file path', 'cropped image file path', 'ROI mask file path']"
+        },
+        {
+            "step": "Harmonisation pathology",
+            "timestamp": "2025-12-01T23:16:03.710512",
+            "details": "Valeurs harmonisées: {'benign': 231, 'malignant': 147}"
+        },
+        {
+            "step": "Vérification doublons",
+            "timestamp": "2025-12-01T23:16:03.712034",
+            "details": "Aucun doublon trouvé"
+        },
+        {
+            "step": "Vérification valeurs manquantes",
+            "timestamp": "2025-12-01T23:16:03.713034",
+            "details": "Aucune valeur critique manquante"
+        },
+        {
+            "step": "Détection outliers",
+            "timestamp": "2025-12-01T23:16:03.715701",
+            "details": "Outliers détectés: {'assessment': {'count': 35, 'lower_bound': 1.5, 'upper_bound': 5.5, 'values': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}"
+        },
+        {
+            "step": "Suppression incohérences critiques",
+            "timestamp": "2025-12-01T23:16:03.721210",
+            "details": "3 cas avec incohérence BI-RADS/Pathology critique supprimés",
+            "rows_before": 378,
+            "rows_after": 375,
+            "rows_removed": 3,
+            "percentage_removed": "0.79%"
+        },
+        {
+            "step": "Vérification cohérence BI-RADS",
+            "timestamp": "2025-12-01T23:16:03.721210",
+            "details": "Statistiques: {'CONSISTENT': 337, 'INCOMPLETE_ASSESSMENT': 33, 'MODERATE_INCONSISTENCY': 5, 'CRITICAL_INCONSISTENCY': 3}"
+        }
+    ],
+    "datasets_cleaned": {
+        "calc_case_description_train_set.csv": {
+            "rows_before": 1546,
+            "rows_after": 1545,
+            "output_file": "data\\cleaned\\calc_case_description_train_set_cleaned.csv"
+        },
+        "calc_case_description_test_set.csv": {
+            "rows_before": 326,
+            "rows_after": 326,
+            "output_file": "data\\cleaned\\calc_case_description_test_set_cleaned.csv"
+        },
+        "mass_case_description_train_set.csv": {
+            "rows_before": 1318,
+            "rows_after": 1317,
+            "output_file": "data\\cleaned\\mass_case_description_train_set_cleaned.csv"
+        },
+        "mass_case_description_test_set.csv": {
+            "rows_before": 378,
+            "rows_after": 375,
+            "output_file": "data\\cleaned\\mass_case_description_test_set_cleaned.csv"
+        }
+    },
+    "summary": {
+        "total_datasets": 4,
+        "total_operations": 31
+    }
+}

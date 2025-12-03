@@ -1,0 +1,29 @@
+{
+    "timestamp": "2025-12-02T00:09:47.754608",
+    "csv_datasets": [
+        "calc_case_description_test_set_cleaned.csv",
+        "calc_case_description_train_set_cleaned.csv",
+        "mass_case_description_test_set_cleaned.csv",
+        "mass_case_description_train_set_cleaned.csv"
+    ],
+    "n_images": 20,
+    "csv_summary": {
+        "total_rows": 3564,
+        "total_columns": 15,
+        "avg_completeness": 99.0490012483428
+    },
+    "image_summary": {
+        "total_images": 20,
+        "mean_intensity": 80.26189141238434,
+        "mean_contrast": 254.7,
+        "mean_entropy": 5.430992354266346
+    },
+    "fusion_potential": {
+        "description": "Dataset multimodal combinant métadonnées CSV et features images",
+        "applications": [
+            "Entraînement modèles multimodaux",
+            "Prédiction combinant données tabulaires + images",
+            "Analyse de cohérence CSV <-> Images"
+        ]
+    }
+}

@@ -1,0 +1,311 @@
+{
+    "projet": "Mini-Projet 2 - Qualité des Données - Cancer du Sein",
+    "auteur": "TIA Ange Jules-Rihem ben Maouia",
+    "date": "02/12/2025",
+    "timestamp": "2025-12-02T08:28:51.818630",
+    "donnees_csv": {
+        "nombre_datasets": 4,
+        "total_lignes": 3564,
+        "completude_moyenne": 99.0490012483428,
+        "details": [
+            {
+                "nom": "calc_case_description_test_set_cleaned.csv",
+                "lignes": 326,
+                "colonnes": 14,
+                "completude": 98.53198948290972,
+                "distribution": {
+                    "benign": 130,
+                    "malignant": 129,
+                    "benign_without_callback": 67
+                }
+            },
+            {
+                "nom": "calc_case_description_train_set_cleaned.csv",
+                "lignes": 1546,
+                "colonnes": 14,
+                "completude": 98.17039364257992,
+                "distribution": {
+                    "malignant": 544,
+                    "benign": 528,
+                    "benign_without_callback": 474
+                }
+            },
+            {
+                "nom": "mass_case_description_test_set_cleaned.csv",
+                "lignes": 375,
+                "colonnes": 16,
+                "completude": 99.71666666666667,
+                "distribution": {
+                    "benign": 231,
+                    "malignant": 144
+                }
+            },
+            {
+                "nom": "mass_case_description_train_set_cleaned.csv",
+                "lignes": 1317,
+                "colonnes": 16,
+                "completude": 99.77695520121489,
+                "distribution": {
+                    "benign": 681,
+                    "malignant": 636
+                }
+            }
+        ]
+    },
+    "donnees_images": {
+        "total_images": 40,
+        "train": {
+            "benign": 10,
+            "malignant": 10,
+            "total": 20
+        },
+        "test": {
+            "benign": 10,
+            "malignant": 10,
+            "total": 20
+        }
+    },
+    "fusion": {
+        "csv_features": 4,
+        "image_features": 1,
+        "fusion_files": 1
+    },
+    "fichiers_generes": [
+        {
+            "chemin": "data\\cleaned\\calc_case_description_test_set_cleaned.csv",
+            "taille_kb": 184.970703125
+        },
+        {
+            "chemin": "data\\cleaned\\calc_case_description_train_set_cleaned.csv",
+            "taille_kb": 899.09375
+        },
+        {
+            "chemin": "data\\cleaned\\mass_case_description_test_set_cleaned.csv",
+            "taille_kb": 215.1943359375
+        },
+        {
+            "chemin": "data\\cleaned\\mass_case_description_train_set_cleaned.csv",
+            "taille_kb": 771.69140625
+        },
+        {
+            "chemin": "data\\cleaned\\csv\\calc_case_description_test_set_cleaned.csv",
+            "taille_kb": 184.970703125
+        },
+        {
+            "chemin": "data\\cleaned\\csv\\calc_case_description_train_set_cleaned.csv",
+            "taille_kb": 899.09375
+        },
+        {
+            "chemin": "data\\cleaned\\csv\\mass_case_description_test_set_cleaned.csv",
+            "taille_kb": 215.1943359375
+        },
+        {
+            "chemin": "data\\cleaned\\csv\\mass_case_description_train_set_cleaned.csv",
+            "taille_kb": 771.69140625
+        },
+        {
+            "chemin": "data\\cleaned\\features\\csv_features_summary.json",
+            "taille_kb": 53.4443359375
+        },
+        {
+            "chemin": "data\\cleaned\\features\\csv\\calc_case_description_test_set_cleaned_features.json",
+            "taille_kb": 11.958984375
+        },
+        {
+            "chemin": "data\\cleaned\\features\\csv\\calc_case_description_train_set_cleaned_features.json",
+            "taille_kb": 12.0595703125
+        },
+        {
+            "chemin": "data\\cleaned\\features\\csv\\mass_case_description_test_set_cleaned_features.json",
+            "taille_kb": 12.341796875
+        },
+        {
+            "chemin": "data\\cleaned\\features\\csv\\mass_case_description_train_set_cleaned_features.json",
+            "taille_kb": 12.5830078125
+        },
+        {
+            "chemin": "data\\cleaned\\features\\fusion\\fusion_metrics.csv",
+            "taille_kb": 0.1982421875
+        },
+        {
+            "chemin": "data\\cleaned\\features\\fusion\\multimodal_fusion_summary.json",
+            "taille_kb": 0.955078125
+        },
+        {
+            "chemin": "data\\cleaned\\features\\images\\image_features.csv",
+            "taille_kb": 4.61328125
+        },
+        {
+            "chemin": "data\\cleaned\\features\\images\\image_features_summary.json",
+            "taille_kb": 0.4384765625
+        },
+        {
+            "chemin": "data\\cleaned\\features\\visualizations\\features_overview.png",
+            "taille_kb": 182.0390625
+        },
+        {
+            "chemin": "data\\cleaned\\features\\visualizations\\fusion_metrics.png",
+            "taille_kb": 105.8095703125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100018879311824535125115145152454291132_original.jpg",
+            "taille_kb": 36.3662109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100522099512256189513864912954167862869_original.jpg",
+            "taille_kb": 17.12109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.10055294210766234140934516480682841962_original.jpg",
+            "taille_kb": 27.7109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100631678311747240317898717702514834166_original.jpg",
+            "taille_kb": 10.8505859375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100682860911308271813943300011840547108_original.jpg",
+            "taille_kb": 7.3251953125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100792511112769116642896236870187678269_original.jpg",
+            "taille_kb": 6.7041015625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.100906036712673986206442054953651734884_original.jpg",
+            "taille_kb": 12.8818359375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.10098093912338239901459163343317187533_original.jpg",
+            "taille_kb": 10.373046875
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.101011223512108697114157057734091580668_original.jpg",
+            "taille_kb": 29.9111328125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\benign\\test_benign_1.3.6.1.4.1.9590.100.1.2.101088347411683211841739390870264222457_original.jpg",
+            "taille_kb": 11.2822265625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100131208110604806117271735422083351547_original.jpg",
+            "taille_kb": 12.255859375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100522676511025180541602449080267145647_original.jpg",
+            "taille_kb": 12.9990234375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100579676611077714807988832023693299884_original.jpg",
+            "taille_kb": 6.080078125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100632214012866120117337678502539182046_original.jpg",
+            "taille_kb": 14.564453125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100764250811134786606184452222065316702_original.jpg",
+            "taille_kb": 13.3359375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100905990410891350726987703140883813087_original.jpg",
+            "taille_kb": 1.1103515625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100918565011624154113353240323776636898_original.jpg",
+            "taille_kb": 6.8544921875
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.100983979911824949714845959010086335063_original.jpg",
+            "taille_kb": 9.58203125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.101063292413216247018662637363163925430_original.jpg",
+            "taille_kb": 16.05859375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\test\\malignant\\test_malignant_1.3.6.1.4.1.9590.100.1.2.101245645112886250614071592174163863244_original.jpg",
+            "taille_kb": 25.9521484375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100018879311824535125115145152454291132_aug1.jpg",
+            "taille_kb": 30.4384765625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100018879311824535125115145152454291132_aug2.jpg",
+            "taille_kb": 30.9501953125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100018879311824535125115145152454291132_original.jpg",
+            "taille_kb": 36.3662109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100522099512256189513864912954167862869_aug1.jpg",
+            "taille_kb": 16.6484375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100522099512256189513864912954167862869_aug2.jpg",
+            "taille_kb": 16.6552734375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100522099512256189513864912954167862869_original.jpg",
+            "taille_kb": 17.12109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.10055294210766234140934516480682841962_aug1.jpg",
+            "taille_kb": 23.8916015625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.10055294210766234140934516480682841962_aug2.jpg",
+            "taille_kb": 24.138671875
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.10055294210766234140934516480682841962_original.jpg",
+            "taille_kb": 27.7109375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\benign\\train_benign_1.3.6.1.4.1.9590.100.1.2.100631678311747240317898717702514834166_aug1.jpg",
+            "taille_kb": 10.375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100131208110604806117271735422083351547_aug1.jpg",
+            "taille_kb": 11.3681640625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100131208110604806117271735422083351547_aug2.jpg",
+            "taille_kb": 11.1484375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100131208110604806117271735422083351547_original.jpg",
+            "taille_kb": 12.255859375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100522676511025180541602449080267145647_aug1.jpg",
+            "taille_kb": 11.853515625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100522676511025180541602449080267145647_aug2.jpg",
+            "taille_kb": 12.501953125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100522676511025180541602449080267145647_original.jpg",
+            "taille_kb": 12.9990234375
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100579676611077714807988832023693299884_aug1.jpg",
+            "taille_kb": 5.9111328125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100579676611077714807988832023693299884_aug2.jpg",
+            "taille_kb": 5.994140625
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100579676611077714807988832023693299884_original.jpg",
+            "taille_kb": 6.080078125
+        },
+        {
+            "chemin": "data\\cleaned\\images\\train\\malignant\\train_malignant_1.3.6.1.4.1.9590.100.1.2.100632214012866120117337678502539182046_aug1.jpg",
+            "taille_kb": 13.666015625
+        }
+    ]
+}

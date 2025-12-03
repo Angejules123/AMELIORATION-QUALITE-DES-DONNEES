@@ -1,0 +1,62 @@
+{
+    "timestamp": "2025-12-02T09:05:47.322021",
+    "parameters": {
+        "target_size": [
+            224,
+            224
+        ],
+        "augmentation": true,
+        "max_per_dataset": null
+    },
+    "datasets": {
+        "calc_case_description_test_set_cleaned.csv": {
+            "split": "test",
+            "total_rows": 326,
+            "processed": 0,
+            "augmented": 0,
+            "failed": 326,
+            "by_label": {
+                "benign": 0,
+                "malignant": 0
+            }
+        },
+        "calc_case_description_train_set_cleaned.csv": {
+            "split": "train",
+            "total_rows": 1546,
+            "processed": 0,
+            "augmented": 0,
+            "failed": 1546,
+            "by_label": {
+                "benign": 0,
+                "malignant": 0
+            }
+        },
+        "mass_case_description_test_set_cleaned.csv": {
+            "split": "test",
+            "total_rows": 375,
+            "processed": 0,
+            "augmented": 0,
+            "failed": 375,
+            "by_label": {
+                "benign": 0,
+                "malignant": 0
+            }
+        },
+        "mass_case_description_train_set_cleaned.csv": {
+            "split": "train",
+            "total_rows": 1317,
+            "processed": 0,
+            "augmented": 0,
+            "failed": 1317,
+            "by_label": {
+                "benign": 0,
+                "malignant": 0
+            }
+        }
+    },
+    "summary": {
+        "total_processed": 0,
+        "total_augmented": 0,
+        "total_failed": 0
+    }
+}

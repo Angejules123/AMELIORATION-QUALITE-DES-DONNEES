@@ -1,0 +1,36 @@
+{
+    "timestamp": "2025-12-02T08:27:59.473914",
+    "total_visualizations": 6,
+    "visualizations": [
+        {
+            "path": "presentation\\figures\\01_distribution_classes.png",
+            "name": "01_distribution_classes.png",
+            "type": "PNG"
+        },
+        {
+            "path": "presentation\\figures\\02_qualite_datasets.png",
+            "name": "02_qualite_datasets.png",
+            "type": "PNG"
+        },
+        {
+            "path": "presentation\\figures\\03_correlation_matrix.png",
+            "name": "03_correlation_matrix.png",
+            "type": "PNG"
+        },
+        {
+            "path": "presentation\\figures\\04_mosaique_images.png",
+            "name": "04_mosaique_images.png",
+            "type": "PNG"
+        },
+        {
+            "path": "presentation\\figures\\05_histogrammes_intensite.png",
+            "name": "05_histogrammes_intensite.png",
+            "type": "PNG"
+        },
+        {
+            "path": "presentation\\figures\\06_dashboard_multimodal.png",
+            "name": "06_dashboard_multimodal.png",
+            "type": "PNG"
+        }
+    ]
+}
